@@ -1,0 +1,71 @@
+.fsp_notification-top-bar {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  line-height: 40px;
+  width: 100%;
+  background: #e4e4e4;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fsp_success {
+  background: #1ABC9C;
+  font-weight: bold;
+
+}
+
+.fsp_alert {
+  background: #FFE870;
+  color: #514404;
+  font-weight: bold;
+}
+
+.fsp_notification-top-bar p span bdi span {
+  font-weight: bold;
+}
+
+/* AMOUNT CONTAINER */
+.fsp_notification-top-bar p span bdi {
+  font-weight: bold;
+  background: #514404;
+  color: #FFFFFF;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.fsp_alert p .fsp_link {
+  font-weight: bold;
+  background: #aa8f09;
+  box-shadow: 0 5px 0 #514404;
+  color: #FFFFFF;
+  padding: 4px 8px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.fsp_notification-top-bar p {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 410px) {
+
+  .fsp_alert p .fsp_link {
+    padding: 3px 6px;
+  }
+
+  .fsp_notification-top-bar {
+    font-size: 4vw;
+    height: 10vh;
+
+  }
+}
+
